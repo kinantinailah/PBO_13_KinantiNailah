@@ -9,9 +9,9 @@ public class Pegawai {
 
     public String getInfo(){
         String info = "";
-        info += "NIP : " + nip + "\n";
-        info += "Nama : " + nama + "\n";
-        info += "Gaji : " + gaji + "\n";
+        info += "NIP            : " + nip + "\n";
+        info += "Nama           : " + nama + "\n";
+        info += "Gaji           : " + gaji + "\n";
 
         return info;
     }
