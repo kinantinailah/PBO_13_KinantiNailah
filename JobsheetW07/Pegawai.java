@@ -3,8 +3,14 @@ public class Pegawai {
     public String nama;
     public Double gaji;
 
-    public Pegawai(){
-        System.out.println("ini constructor class Pegawai");
+    // public Pegawai(){
+    //     System.out.println("ini constructor class Pegawai");
+    // }
+
+    public Pegawai(String nip, String nama, Double gaji){
+        this.nip = nip;
+        this.nama = nama;
+        this.gaji = gaji;
     }
 
     public String getInfo(){
