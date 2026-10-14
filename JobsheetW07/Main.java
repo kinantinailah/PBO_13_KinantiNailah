@@ -6,6 +6,6 @@ public static void main (String[] args){
     dosen1.gaji = 3000000.0;
     dosen1.nidn = "198943239";
 
-    System.out.println(dosen1.getInfo());
+    System.out.println(dosen1.getAllInfo());
 
 }
