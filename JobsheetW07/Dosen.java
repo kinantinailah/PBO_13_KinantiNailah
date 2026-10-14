@@ -3,9 +3,7 @@ public class Dosen extends Pegawai {
     public String nidn;
 
     public Dosen(String nip, String nama, Double gaji, String nidn){
-        super.nip = nip;
-        super.nama = nama;
-        super.gaji = gaji;
+        super(nip, nama, gaji);
         this.nidn = nidn;
     }
 
