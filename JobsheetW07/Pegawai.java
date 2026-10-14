@@ -18,3 +18,4 @@ public class Pegawai {
         return info;
     }
 }
+
